@@ -1,0 +1,135 @@
+body{
+    font-family:'Roboto', sans-serif ;
+}
+header{
+    width: 100%;
+}
+nav {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    float: right;
+    margin-bottom: 15px;
+  }
+  .nav_google{
+    float: right;
+    padding-left: 32px;
+    
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    color: #191a1b;
+    
+  }
+  
+  a:hover {
+    background-color: #eaeaea;
+  }
+
+  .square_img{
+    min-height: 10px;
+    max-height: 20px;
+    margin-left: 17px;
+    margin-right: 5px;
+  }
+
+  .button_login{
+    background-color:#1A73E8;
+    color: #ffffff;
+    border: none;
+    margin-left: 10px;
+    padding: 8px 25px;
+    font-weight: 700;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+  }
+
+  #container_sec{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  #logo{
+    
+    min-height: 40px;
+    max-height: 90px;
+
+  }
+
+  .search-bar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .buttons a, .buttons button {
+    margin-left: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+  }
+.colombia{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  footer {
+
+    background-color: #f2f2f2;
+    padding: 15px 30px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section a,
+  .right-section a {
+    
+    color: #70757a;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
